@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockCode", "BlockCodeLibrary\BlockCode.csproj", "{1A507036-4810-4CC0-B7D6-4392C3A4FB96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockCodeApp", "BlockCodeApp\BlockCodeApp.csproj", "{C570B208-E795-4908-9070-FC2AD3692CC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A507036-4810-4CC0-B7D6-4392C3A4FB96} = {1A507036-4810-4CC0-B7D6-4392C3A4FB96}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A507036-4810-4CC0-B7D6-4392C3A4FB96}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{1A507036-4810-4CC0-B7D6-4392C3A4FB96}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{1A507036-4810-4CC0-B7D6-4392C3A4FB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A507036-4810-4CC0-B7D6-4392C3A4FB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C570B208-E795-4908-9070-FC2AD3692CC8}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C570B208-E795-4908-9070-FC2AD3692CC8}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{C570B208-E795-4908-9070-FC2AD3692CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C570B208-E795-4908-9070-FC2AD3692CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4524EC8E-B2CA-4464-A1CD-9B992B26B6A3}
+	EndGlobalSection
+EndGlobal
